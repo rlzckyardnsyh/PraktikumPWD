@@ -1,0 +1,53 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .ktp-card {
+    background: #d1ecf1;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    color: #000;
+  }
+
+  .ktp-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .ktp-photo {
+    float: right;
+    width: 100px;
+    height: 120px;
+    background-color: #ccc;
+    border: 2px solid #888;
+    margin-left: 10px;
+    background-image: url('https://via.placeholder.com/100x120');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .ktp-info {
+    font-size: 14px;
+  }
+
+  .ktp-info p {
+    margin: 5px 0;
+  }
+
+  .ktp-footer {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 30px;
+  }
+
+  .clear {
+    clear: both;
+  }
